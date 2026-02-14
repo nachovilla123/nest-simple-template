@@ -62,6 +62,6 @@ Usar TypeORM con PostgreSQL, ejecutando PostgreSQL en Docker con pgAdmin para vi
 
 ## Notas de Implementación
 - Usar UUIDs como primary keys
-- Clase BaseEntity para principio DRY
+- Cada entidad define sus propios campos (id, createdAt, updatedAt)
 - Configuración basada en variables de entorno
 - autoLoadEntities: true para evitar registro manual
